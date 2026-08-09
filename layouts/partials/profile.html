@@ -1,0 +1,35 @@
+<section class="index-profile">
+  <img src="index-background.jpg">
+  <h2>Nanum Learn</h2>
+  <p>
+  </p>
+
+  <div class="index-stat">
+    <div class="social-icons">
+      {{ with .Site.Params.social.website }}
+      <a href="{{ . }}" target="_blank" rel="noopener" aria-label="Personal Website">
+        <i class="fas fa-user"></i>
+      </a>
+      {{ end }}
+
+      {{ with .Site.Params.social.youtube }}
+      <a href="{{ . }}" target="_blank" rel="noopener" aria-label="Youtube">
+        <i class="fab fa-youtube"></i>
+      </a>
+      {{ end }}
+
+      {{ with .Site.Params.social.github }}
+      <a href="{{ . }}" target="_blank" rel="noopener" aria-label="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+      {{ end }}
+
+      {{ with .Site.Params.social.blog }}
+      <a href="{{ . }}" target="_blank" rel="noopener" aria-label="Blog">
+        <i class="fa-solid fa-blog"></i>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+</section>
+

@@ -1,0 +1,20 @@
+baseURL = 'https://nanumlearn.enochyu.com/'
+locale = 'en-us'
+title = 'My New Hugo Project'
+
+enableRobotsTXT = true
+
+[params]
+author = "Enoch Yu"
+favicon = "/img/favicon/favicon.ico"
+  [params.social]
+    youtube = "https://www.youtube.com/channel/UCCnkn0YRKStraznc7kuICRg"
+    discord = ""
+    blog = "https://blog.enochyu.com/"
+    archive = "https://archive.enochyu.com/"
+    github = "https://github.com/enochyu-official"
+
+[security]
+  allowContent = ['^text/html$']
+
+
