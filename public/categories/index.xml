@@ -10,6 +10,29 @@
 		
 		
 		
+			<lastBuildDate>Sun, 09 Aug 2026 00:00:00 +0000</lastBuildDate>
+		
 			<atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Tesintg</title>
+				<link>http://localhost:1313/categories/tesintg/</link>
+				<pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/categories/tesintg/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>Student Life</title>
+				<link>http://localhost:1313/categories/student-life/</link>
+				<pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/categories/student-life/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>News</title>
+				<link>http://localhost:1313/categories/news/</link>
+				<pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/categories/news/</guid>
+				<description></description>
+			</item>
 	</channel>
 </rss>

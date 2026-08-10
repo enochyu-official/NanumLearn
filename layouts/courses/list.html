@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="page-header">
+  <h1>Courses</h1>
+</div>
+<section id="courses-section">
+  <div id="courses-container">
+    {{ range .RegularPages }}
+      {{ partial "preview-card.html" . }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+

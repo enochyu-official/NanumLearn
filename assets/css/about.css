@@ -1,0 +1,79 @@
+#about-mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - var(--nav-height));
+  /*object-fit: cover;
+  display: block;*/
+
+  background-color: #9a031e;
+}
+
+
+.about-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color);
+}
+
+.about-section:nth-child(even) {
+  background-color: var(--bg-color2);
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 70vw;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+}
+
+.about-container h2 {
+  width: 100%;
+  margin-top: 1.2rem;
+  color: var(--accent-color2);
+  border-bottom: 5px solid var(--accent-color1);
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+
+/* Founder */
+#about-founder-card {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+#about-founder-card img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 30px;
+}
+
+#about-founder-description {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  margin: 3rem;
+  gap: 1rem;
+}
+
+#about-founder-description h3 {
+  font-size: 2.8rem;
+}
+
+#about-founder-description p {
+  font-size: 1.2rem;
+}
+

@@ -9,11 +9,11 @@
       </button>
 
       <ul class="nav-menu" id="navMenu">
-        <li><a href="/" class="nav-link {{ if .IsHome }}active{{ end }}">Home</a></li>
-        <li><a href="/about" class="nav-link {{ if eq .RelPermalink "/about/" }}active{{ end }}">About</a></li>
         <li><a href="/textbooks" class="nav-link {{ if eq .RelPermalink "/textbooks/" }}active{{ end }}">Textbooks</a></li>
-        <li><a href="/resources" class="nav-link {{ if eq .RelPermalink "/resources/" }}active{{ end }}">Resources</a></li>
+        <li><a href="/handouts" class="nav-link {{ if eq .RelPermalink "/handouts/" }}active{{ end }}">Handouts</a></li>
         <li><a href="/courses" class="nav-link {{ if eq .RelPermalink "/courses/" }}active{{ end }}">Courses</a></li>
+        <li><a href="/news" class="nav-link {{ if eq .RelPermalink "/news/" }}active{{ end }}">News</a></li>
+        <li><a href="/about" class="nav-link {{ if eq .RelPermalink "/about/" }}active{{ end }}">About</a></li>
       </ul>
     </div>
   </nav>

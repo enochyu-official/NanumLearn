@@ -1,0 +1,15 @@
+.btn1 {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 8px 14px;
+  background: #222;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  width: fit-content;
+}
+
+.btn1:hover {
+  background: #444;
+}
+

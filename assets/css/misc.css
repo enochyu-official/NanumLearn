@@ -1,0 +1,49 @@
+/* Footer */
+.footer {
+  background: rgba(28, 28, 30, 0.95);
+  color: whitesmoke !important;
+  text-align: center;
+  padding: 1.7rem;
+}
+
+.footer a, 
+.footer a:link {
+  color: whitesmoke !important;
+  text-decoration: none;
+}
+
+.footer a:visited,
+.footer a:hover,
+.footer a:active {
+  color: #D3D3D3 !important;
+  text-decoration: none;
+}
+
+
+/* 404 */
+.error-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  min-height: 90vh;
+}
+
+.error-page h1 {
+  font-size: 15vw;
+  color: var(--accent-color1);
+}
+
+.error-page p {
+  font-size: 2.1rem;
+  font-weight: 400;
+}
+
+.error-page a {
+  text-decoration: none;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+

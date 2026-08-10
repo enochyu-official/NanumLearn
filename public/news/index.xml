@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>News on My New Hugo Project</title>
+		<link>http://localhost:1313/news/</link>
+		<description>Recent content in News on My New Hugo Project</description>
+		<generator>Hugo</generator>
+		<language>en-us</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 12 Dec 2025 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>From the Beginning: My First Post</title>
+				<link>http://localhost:1313/news/posts/testing/</link>
+				<pubDate>Fri, 12 Dec 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/news/posts/testing/</guid>
+				<description>&lt;p&gt;Hello!! Welcome to my personal blog where I post about various topics!&#xA;I am a student from South Korea, and is currently attending Laurel&#xA;Springs School. Please check out my&#xA;&lt;a href=&#34;https://www.youtube.com/@enochyu_official/&#34;&gt;YouTube Channel&lt;/a&gt; and&#xA;&lt;a href=&#34;https://github.com/enochyu-official&#34;&gt;GitHub&lt;/a&gt; for more information!!&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-i-started-to-blog&#34;&gt;Why I Started to Blog&lt;/h2&gt;&#xA;&lt;p&gt;Frankly, I wasn&amp;rsquo;t always confident in writing. Although I am comfortable&#xA;with using English, the thought that I do not sound like a &lt;strong&gt;native speaker&lt;/strong&gt;,&#xA;when using casual term, kicks in. &lt;em&gt;Is my grammar wrong? Is my word choice&#xA;not ideal? Am I using the word in a wrong way?&lt;/em&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

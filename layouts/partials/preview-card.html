@@ -1,0 +1,17 @@
+<div class="card-preview">
+  <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}"
+       class="card-preview-image">
+
+  <div class="card-preview-content">
+    <div class="card-preview-meta">
+      Last Updated: {{ .Date.Format "January 2, 2006" }}
+    </div>
+
+    <a href="{{ .Permalink }}" class="card-preview-title">{{ .Title }}</a>
+
+    <p class="card-preview-description">{{ .Description }}</p>
+
+    <a href="{{ .Permalink }}" class="btn1">Read more</a>
+  </div>
+</div>
+

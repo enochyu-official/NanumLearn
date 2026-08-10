@@ -15,6 +15,6 @@ favicon = "/img/favicon/favicon.ico"
     github = "https://github.com/enochyu-official"
 
 [security]
-  allowContent = ['^text/html$']
+  allowContent = ['^text/html$', '^text/markdown$']
 
 
