@@ -9,16 +9,7 @@
   /*object-fit: cover;
   display: block;*/
 
-  --s: 80px;
-  --c1: #a2d2ff;
-  --c2: #9a031e;
-    
-  --_g:/calc(3*var(--s)) calc(2*var(--s)) 
-    conic-gradient(at 33% 25%,#0000 75%,var(--c1) 0);
-  background:
-     calc(var(--s)/-2) calc(var(--s)/4) var(--_g),
-     calc(var(--s)/2) calc(5*var(--s)/4) var(--_g),
-    radial-gradient(var(--c1) 34%,var(--c2) 36%) 0 0/var(--s) var(--s);
+  background-color: #254F12;
 }
 
 .index-profile h2 {

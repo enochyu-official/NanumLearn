@@ -1,8 +1,8 @@
 ---
 author: Enoch Yu
 title: "From the Beginning: My First Post"
-date: 2025-12-12
-categories: ["Student Life"]
+date: 2026-08-09
+categories: ["testing"]
 ---
 
 Hello!! Welcome to my personal blog where I post about various topics!

@@ -1,0 +1,20 @@
+{{ define "main" }}
+<div class="page-header">
+  <h1>Books</h1>
+</div>
+<br>
+<section class="books-section">
+  {{ range where .Site.RegularPages "Section" "books" }}
+    <div class="books-container">
+      <iframe src="{{ .Params.link }}"></iframe>
+      <div class="books-card">
+        <h3>{{ .Title }}</h3>
+        <p>{{ .Params.description }}</p>
+        <span>{{ .Date.Format "2006-01-02" }}</span>
+      </div>
+    </div>
+  {{ end }}
+</section>
+<br>
+{{ end }}
+
