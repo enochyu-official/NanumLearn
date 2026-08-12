@@ -18,14 +18,14 @@
 				<link>http://localhost:1313/classes/testing2/</link>
 				<pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/classes/testing2/</guid>
-				<description></description>
+				<description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>HIHI</title>
 				<link>http://localhost:1313/classes/testing/</link>
 				<pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/classes/testing/</guid>
-				<description></description>
+				<description>&lt;p&gt;+++&#xA;title = &amp;ldquo;Enoch&amp;rsquo;s Notebook: Linear Algebra&amp;rdquo;&#xA;description = &amp;ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&amp;rdquo;&#xA;date = &amp;ldquo;2026-08-10&amp;rdquo;&#xA;author = &amp;ldquo;Enoch Yu&amp;rdquo;&#xA;link = &amp;ldquo;&lt;a href=&#34;https://archive.enochyu.com/mathematics/pdf/25062.pdf%22&#34;&gt;https://archive.enochyu.com/mathematics/pdf/25062.pdf&amp;quot;&lt;/a&gt;&#xA;weight = 1&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

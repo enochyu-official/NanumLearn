@@ -25,7 +25,7 @@
 				<link>http://localhost:1313/classes/testing2/</link>
 				<pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/classes/testing2/</guid>
-				<description></description>
+				<description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>LibreNotebook</title>
@@ -39,7 +39,7 @@
 				<link>http://localhost:1313/classes/testing/</link>
 				<pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/classes/testing/</guid>
-				<description></description>
+				<description>&lt;p&gt;+++&#xA;title = &amp;ldquo;Enoch&amp;rsquo;s Notebook: Linear Algebra&amp;rdquo;&#xA;description = &amp;ldquo;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&amp;rdquo;&#xA;date = &amp;ldquo;2026-08-10&amp;rdquo;&#xA;author = &amp;ldquo;Enoch Yu&amp;rdquo;&#xA;link = &amp;ldquo;&lt;a href=&#34;https://archive.enochyu.com/mathematics/pdf/25062.pdf%22&#34;&gt;https://archive.enochyu.com/mathematics/pdf/25062.pdf&amp;quot;&lt;/a&gt;&#xA;weight = 1&#xA;+++&lt;/p&gt;&#xA;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Enoch&#39;s Notebook: Machine Learning</title>
@@ -53,6 +53,20 @@
 				<link>http://localhost:1313/news/testing/</link>
 				<pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/news/testing/</guid>
+				<description>&lt;p&gt;Hello!! Welcome to my personal blog where I post about various topics!&#xA;I am a student from South Korea, and is currently attending Laurel&#xA;Springs School. Please check out my&#xA;&lt;a href=&#34;https://www.youtube.com/@enochyu_official/&#34;&gt;YouTube Channel&lt;/a&gt; and&#xA;&lt;a href=&#34;https://github.com/enochyu-official&#34;&gt;GitHub&lt;/a&gt; for more information!!&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-i-started-to-blog&#34;&gt;Why I Started to Blog&lt;/h2&gt;&#xA;&lt;p&gt;Frankly, I wasn&amp;rsquo;t always confident in writing. Although I am comfortable&#xA;with using English, the thought that I do not sound like a &lt;strong&gt;native speaker&lt;/strong&gt;,&#xA;when using casual term, kicks in. &lt;em&gt;Is my grammar wrong? Is my word choice&#xA;not ideal? Am I using the word in a wrong way?&lt;/em&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>From the Beginning: My First Post</title>
+				<link>http://localhost:1313/news/testing2/</link>
+				<pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/news/testing2/</guid>
+				<description>&lt;p&gt;Hello!! Welcome to my personal blog where I post about various topics!&#xA;I am a student from South Korea, and is currently attending Laurel&#xA;Springs School. Please check out my&#xA;&lt;a href=&#34;https://www.youtube.com/@enochyu_official/&#34;&gt;YouTube Channel&lt;/a&gt; and&#xA;&lt;a href=&#34;https://github.com/enochyu-official&#34;&gt;GitHub&lt;/a&gt; for more information!!&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-i-started-to-blog&#34;&gt;Why I Started to Blog&lt;/h2&gt;&#xA;&lt;p&gt;Frankly, I wasn&amp;rsquo;t always confident in writing. Although I am comfortable&#xA;with using English, the thought that I do not sound like a &lt;strong&gt;native speaker&lt;/strong&gt;,&#xA;when using casual term, kicks in. &lt;em&gt;Is my grammar wrong? Is my word choice&#xA;not ideal? Am I using the word in a wrong way?&lt;/em&gt;&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>From the Beginning: My First Post</title>
+				<link>http://localhost:1313/news/testing3/</link>
+				<pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/news/testing3/</guid>
 				<description>&lt;p&gt;Hello!! Welcome to my personal blog where I post about various topics!&#xA;I am a student from South Korea, and is currently attending Laurel&#xA;Springs School. Please check out my&#xA;&lt;a href=&#34;https://www.youtube.com/@enochyu_official/&#34;&gt;YouTube Channel&lt;/a&gt; and&#xA;&lt;a href=&#34;https://github.com/enochyu-official&#34;&gt;GitHub&lt;/a&gt; for more information!!&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-i-started-to-blog&#34;&gt;Why I Started to Blog&lt;/h2&gt;&#xA;&lt;p&gt;Frankly, I wasn&amp;rsquo;t always confident in writing. Although I am comfortable&#xA;with using English, the thought that I do not sound like a &lt;strong&gt;native speaker&lt;/strong&gt;,&#xA;when using casual term, kicks in. &lt;em&gt;Is my grammar wrong? Is my word choice&#xA;not ideal? Am I using the word in a wrong way?&lt;/em&gt;&lt;/p&gt;</description>
 			</item>
 	</channel>

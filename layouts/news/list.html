@@ -5,20 +5,10 @@
 <br>
 <section id="news-section">
   <div id="news-container">
-    {{ range hugo.Data.news }}
+    {{ range .RegularPages }}
       <div id="news-item">
-        <span>
-          {{- range .links -}}
-          {{ if .url }}
-            <a href="{{ .url | relURL }}" class="news-title"
-               target="_blank" rel="noopener noreferrer">{{ .label }}
-            </a>
-          {{ else }}
-            <span class="news-title">{{ .label }}</span>
-          {{ end }}
-          {{- end -}}
-        </span>
-        <span class="news-date">{{ .date }}</span>
+        <a href="{{ .Permalink }}" class="news-title">{{ .Title }}</a>
+        <span class="news-date">{{ .Date.Format "January 2, 2006" }}</span>
       </div>
     {{ end }}
   </div>
