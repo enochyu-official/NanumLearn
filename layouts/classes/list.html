@@ -1,0 +1,31 @@
+{{ define "main" }}
+<div class="page-header">
+  <h1>Classes</h1>
+</div>
+<br>
+<section id="classes-section">
+  <div id="classes-container">
+    {{ range .RegularPages }}
+    <div class="classes-preview">
+      <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}"
+           class="classes-preview-image">
+
+      <div class="classes-preview-content">
+        <div class="classes-preview-meta">
+          Last Updated: {{ .Date.Format "January 2, 2006" }}
+        </div>
+
+        <a href="{{ .Permalink }}" class="classes-preview-title">{{ .Title }}</a>
+
+        <p class="classes-preview-description">{{ .Description }}</p>
+
+        <a href="{{ .Permalink }}" class="btn1">Read more</a>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+<br>
+{{ end }}
+
+

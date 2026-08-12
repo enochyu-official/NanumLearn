@@ -5,6 +5,7 @@
   padding: 1rem;
   border: 0.0625rem solid #ddd;
   border-radius: 0.75rem;
+  max-height: 30rem;
 }
 
 .card-preview-image {

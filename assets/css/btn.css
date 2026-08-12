@@ -1,15 +1,32 @@
 .btn1 {
   display: inline-block;
-  margin-top: 12px;
-  padding: 8px 14px;
-  background: #222;
-  color: #fff;
+  padding: 0.4rem 0.8rem;
+  margin-top: 0.5rem;
+  max-height: 350px;
+  font-size: 0.9rem;
+  text-align: center;
+  background-color: transparent;
   text-decoration: none;
-  border-radius: 8px;
-  width: fit-content;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: var(--transition);
+  background: #1b1b1b;
+  color: var(--bg-color);
+  border: 1px solid rgba(128, 128, 128, 0.65);
 }
 
 .btn1:hover {
-  background: #444;
+  color: #1b1b1b;
+  background-color: transparent;
+  border: 1px solid rgba(128, 128, 128, 1);
 }
+
+.btn-books {
+  width: 100%;
+}
+
+.btn-handouts {
+  width: 49%;
+}
+
 

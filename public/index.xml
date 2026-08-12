@@ -14,24 +14,31 @@
 		
 			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>HIHI2</title>
-				<link>http://localhost:1313/courses/testing2/</link>
-				<pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/courses/testing2/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>HIHI</title>
-				<link>http://localhost:1313/courses/testing/</link>
-				<pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/courses/testing/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>Enoch&#39;s Notebook: Linear Algebra</title>
 				<link>http://localhost:1313/books/lin-alg/</link>
 				<pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/books/lin-alg/</guid>
+				<description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>HIHI2</title>
+				<link>http://localhost:1313/classes/testing2/</link>
+				<pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/classes/testing2/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>LibreNotebook</title>
+				<link>http://localhost:1313/books/librenotebook/</link>
+				<pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/books/librenotebook/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>HIHI</title>
+				<link>http://localhost:1313/classes/testing/</link>
+				<pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/classes/testing/</guid>
 				<description></description>
 			</item>
 			<item>

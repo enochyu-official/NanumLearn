@@ -8,9 +8,14 @@
     <div class="books-container">
       <iframe src="{{ .Params.link }}"></iframe>
       <div class="books-card">
-        <h3>{{ .Title }}</h3>
+        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+        <span>Last Updated: {{ .Date.Format "2 January 2006" }}</span>
         <p>{{ .Params.description }}</p>
-        <span>{{ .Date.Format "2006-01-02" }}</span>
+        <div class="books-card-btns">
+          <a href="{{ .Permalink }}" class="btn1 btn-books">Read More</a>
+          <a href="{{ .Params.link }}" class="btn1 btn-books">Open PDF</a>
+          <a href="{{ .Params.link }}" class="btn1 btn-books">Source (Git)</a>
+        </div>
       </div>
     </div>
   {{ end }}

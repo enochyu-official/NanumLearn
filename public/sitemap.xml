@@ -2,14 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/courses/testing2/</loc>
-    <lastmod>2026-08-09T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/courses/testing/</loc>
-    <lastmod>2026-08-09T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/books/lin-alg/</loc>
     <lastmod>2026-08-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/classes/testing2/</loc>
+    <lastmod>2026-08-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/books/librenotebook/</loc>
+    <lastmod>2026-08-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/classes/testing/</loc>
+    <lastmod>2026-08-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/books/ml/</loc>
     <lastmod>2026-08-10T00:00:00+00:00</lastmod>
@@ -23,7 +26,7 @@
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2026-08-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/courses/</loc>
+    <loc>http://localhost:1313/classes/</loc>
     <lastmod>2026-08-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/news/testing/</loc>
@@ -41,8 +44,6 @@
     <loc>http://localhost:1313/about/</loc>
   </url><url>
     <loc>http://localhost:1313/handouts/</loc>
-  </url><url>
-    <loc>http://localhost:1313/categories/sadf/</loc>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
   </url>

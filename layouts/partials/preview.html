@@ -1,7 +1,13 @@
 <section class="index-preview">
   <div class="index-preview-container">
-    <h2>Free Textbooks</h2>
-    <div class="index-preview-container-item-container">
+    <h2>Free Books</h2>
+    <div class="index-preview-contents">
+      <p>Free Books</p>
+      <div class="index-preview-contents-cards">
+        {{ range where .Site.RegularPages "Section" "books" }}
+          {{ partial "preview-card.html" . }}
+        {{ end }}
+      </div>
     </div>
   </div>
 </section>
@@ -9,12 +15,28 @@
 <section class="index-preview">
   <div class="index-preview-container">
     <h2>Free Handouts</h2>
+    <div class="index-preview-contents">
+      <p>Selected handouts</p>
+      <div class="index-preview-contents-cards">
+        {{ range hugo.Data.handouts02 }}
+          {{ partial "preview-card.html" . }}
+        {{ end }}
+      </div>
+    </div>
   </div>
 </section>
 
 <section class="index-preview">
   <div class="index-preview-container">
-    <h2>Free Courses</h2>
+    <h2>Free Classes</h2>
+    <div class="index-preview-contents">
+      <p>Selected Classes</p>
+      <div class="index-preview-contents-cards">
+        {{ range where .Site.RegularPages "Section" "classes" }}
+          {{ partial "preview-card.html" . }}
+        {{ end }}
+      </div>
+    </div>
   </div>
 </section>
 
