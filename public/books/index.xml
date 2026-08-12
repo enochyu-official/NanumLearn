@@ -10,28 +10,26 @@
 		
 		
 		
-			<lastBuildDate>Mon, 10 Aug 2026 00:00:00 +0000</lastBuildDate>
-		
 			<atom:link href="http://localhost:1313/books/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>Enoch&#39;s Notebook: Linear Algebra</title>
-				<link>http://localhost:1313/books/lin-alg/</link>
+				<title>Enoch&#39;s Notebook: An Introduction to Linear Algebra</title>
+				<link>http://localhost:1313/books/26001/</link>
 				<pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/books/lin-alg/</guid>
+				<guid>http://localhost:1313/books/26001/</guid>
 				<description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>LibreNotebook</title>
-				<link>http://localhost:1313/books/librenotebook/</link>
+				<link>http://localhost:1313/books/26002/</link>
 				<pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/books/librenotebook/</guid>
+				<guid>http://localhost:1313/books/26002/</guid>
 				<description></description>
 			</item>
 			<item>
 				<title>Enoch&#39;s Notebook: Machine Learning</title>
-				<link>http://localhost:1313/books/ml/</link>
+				<link>http://localhost:1313/books/26003/</link>
 				<pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/books/ml/</guid>
+				<guid>http://localhost:1313/books/26003/</guid>
 				<description></description>
 			</item>
 	</channel>

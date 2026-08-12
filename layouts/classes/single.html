@@ -9,12 +9,20 @@
       <div class="single-meta">
         <ul>
           <li>Author: {{ .Params.Author }}</li>
+          <li>Status: {{ .Params.Status }}</li>
           <li>Last Updated: {{ .Date.Format "January 2, 2006" }}</li>
           <li>Total Views:</li>
+        </ul>
+        <hr style="margin: 0.5rem 0">
+        <h3>Access Classes</h3>
+        <ul class="single-meta-access">
+          <li><a href="{{ .Params.Link1 }}">Overview (PDF)</a></li>
+          <li><a href="{{ .Params.Link2 }}">Playlist</a></li>
         </ul>
       </div>
     </div>
     <div class="single-description">
+      <h3>About</h3>
       {{ .Content }}
     </div>
   </section>

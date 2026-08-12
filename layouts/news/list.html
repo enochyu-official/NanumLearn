@@ -3,15 +3,22 @@
   <h1>News</h1>
 </div>
 <br>
-<section id="news-section">
-  <div id="news-container">
-    {{ range .RegularPages }}
-      <div id="news-item">
+<section class="news-section">
+  <div class="news-container">
+  {{ $currentYear := "" }}
+  {{ range .RegularPages.ByDate.Reverse }}
+    {{ $year := .Date.Format "2006" }}
+    {{ if ne $year $currentYear }}
+      <h2>{{ $year }}</h2>
+      {{ $currentYear = $year }}
+    {{ end }}
+    <div class="news-item">
+      <span class="news-meta">
         <a href="{{ .Permalink }}" class="news-title">{{ .Title }}</a>
         <span class="news-date">{{ .Date.Format "January 2, 2006" }}</span>
-      </div>
-    {{ end }}
-  </div>
+      </span>
+    </div>
+  {{ end }}
 </section>
 <br>
 {{ end }}

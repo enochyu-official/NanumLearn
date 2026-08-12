@@ -10,29 +10,15 @@
 		
 		
 		
-			<lastBuildDate>Sun, 09 Aug 2026 00:00:00 +0000</lastBuildDate>
+			<lastBuildDate>Wed, 12 Aug 2026 00:00:00 +0000</lastBuildDate>
 		
 			<atom:link href="http://localhost:1313/news/index.xml" rel="self" type="application/rss+xml" />
 			<item>
-				<title>From the Beginning: My First Post</title>
-				<link>http://localhost:1313/news/testing/</link>
-				<pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/news/testing/</guid>
-				<description>&lt;p&gt;Hello!! Welcome to my personal blog where I post about various topics!&#xA;I am a student from South Korea, and is currently attending Laurel&#xA;Springs School. Please check out my&#xA;&lt;a href=&#34;https://www.youtube.com/@enochyu_official/&#34;&gt;YouTube Channel&lt;/a&gt; and&#xA;&lt;a href=&#34;https://github.com/enochyu-official&#34;&gt;GitHub&lt;/a&gt; for more information!!&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-i-started-to-blog&#34;&gt;Why I Started to Blog&lt;/h2&gt;&#xA;&lt;p&gt;Frankly, I wasn&amp;rsquo;t always confident in writing. Although I am comfortable&#xA;with using English, the thought that I do not sound like a &lt;strong&gt;native speaker&lt;/strong&gt;,&#xA;when using casual term, kicks in. &lt;em&gt;Is my grammar wrong? Is my word choice&#xA;not ideal? Am I using the word in a wrong way?&lt;/em&gt;&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>From the Beginning: My First Post</title>
-				<link>http://localhost:1313/news/testing2/</link>
-				<pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/news/testing2/</guid>
-				<description>&lt;p&gt;Hello!! Welcome to my personal blog where I post about various topics!&#xA;I am a student from South Korea, and is currently attending Laurel&#xA;Springs School. Please check out my&#xA;&lt;a href=&#34;https://www.youtube.com/@enochyu_official/&#34;&gt;YouTube Channel&lt;/a&gt; and&#xA;&lt;a href=&#34;https://github.com/enochyu-official&#34;&gt;GitHub&lt;/a&gt; for more information!!&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-i-started-to-blog&#34;&gt;Why I Started to Blog&lt;/h2&gt;&#xA;&lt;p&gt;Frankly, I wasn&amp;rsquo;t always confident in writing. Although I am comfortable&#xA;with using English, the thought that I do not sound like a &lt;strong&gt;native speaker&lt;/strong&gt;,&#xA;when using casual term, kicks in. &lt;em&gt;Is my grammar wrong? Is my word choice&#xA;not ideal? Am I using the word in a wrong way?&lt;/em&gt;&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>From the Beginning: My First Post</title>
-				<link>http://localhost:1313/news/testing3/</link>
-				<pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/news/testing3/</guid>
-				<description>&lt;p&gt;Hello!! Welcome to my personal blog where I post about various topics!&#xA;I am a student from South Korea, and is currently attending Laurel&#xA;Springs School. Please check out my&#xA;&lt;a href=&#34;https://www.youtube.com/@enochyu_official/&#34;&gt;YouTube Channel&lt;/a&gt; and&#xA;&lt;a href=&#34;https://github.com/enochyu-official&#34;&gt;GitHub&lt;/a&gt; for more information!!&lt;/p&gt;&#xA;&lt;h2 id=&#34;why-i-started-to-blog&#34;&gt;Why I Started to Blog&lt;/h2&gt;&#xA;&lt;p&gt;Frankly, I wasn&amp;rsquo;t always confident in writing. Although I am comfortable&#xA;with using English, the thought that I do not sound like a &lt;strong&gt;native speaker&lt;/strong&gt;,&#xA;when using casual term, kicks in. &lt;em&gt;Is my grammar wrong? Is my word choice&#xA;not ideal? Am I using the word in a wrong way?&lt;/em&gt;&lt;/p&gt;</description>
+				<title>We are here!</title>
+				<link>http://localhost:1313/news/26005/</link>
+				<pubDate>Wed, 12 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/news/26005/</guid>
+				<description>&lt;p&gt;Hi there! As the initial post,&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>

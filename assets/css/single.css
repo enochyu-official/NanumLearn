@@ -35,7 +35,6 @@
 .single-content-section {
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: center;
   margin: 0 auto;
   width: 70vw;
@@ -43,19 +42,31 @@
   gap: 5rem;
 }
 
-.single-content {
+.single-meta {
+  width: 100%;
 }
 
-.single-meta {
+.single-meta h3 {
+  color: var(--accent-color1);
 }
 
 .single-meta ul {
   list-style: none;
 }
 
-.single-description {
+.single-meta-access {
+  padding-left: 1rem !important;
 }
 
+.single-description h3 {
+  font-size: 2.3rem;
+  color: var(--accent-color1);
+}
+
+.single-description p {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
 
 .post-navigation {
   padding: 30px;
@@ -113,4 +124,9 @@
   }
 }
 
+
+.space {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
 

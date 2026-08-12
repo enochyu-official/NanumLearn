@@ -3,19 +3,22 @@
   <h1>Classes</h1>
 </div>
 <br>
-<section id="classes-section">
-  <div id="classes-container">
+<section class="classes-section">
+  <div class="classes-container">
     {{ range .RegularPages }}
     <div class="classes-preview">
-      <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}"
-           class="classes-preview-image">
+      <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
 
       <div class="classes-preview-content">
+        <a href="{{ .Permalink }}"
+           class="classes-preview-title">{{ .Title }}</a>
+
         <div class="classes-preview-meta">
+          Status: {{ .Params.Status }}
+          <br>
           Last Updated: {{ .Date.Format "January 2, 2006" }}
         </div>
-
-        <a href="{{ .Permalink }}" class="classes-preview-title">{{ .Title }}</a>
+        <hr>
 
         <p class="classes-preview-description">{{ .Description }}</p>
 

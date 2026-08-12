@@ -6,7 +6,7 @@ header {
 }
 
 .navbar {
-  background-color: var(--bg-color);
+  background: rgba(28, 28, 30, 0.95);
   backdrop-filter: blur(10px);
   width: 100%;
   position: sticky;
@@ -26,7 +26,7 @@ header {
 }
 
 .nav-logo {
-  color: var(--text-dark);
+  color: #F5F3F0;
   font-size: 2rem;
   font-weight: 700;
   text-decoration: none;
@@ -40,8 +40,8 @@ header {
 }
 
 .nav-link {
-  color: var(--text-dark);
-  font-size: 1.2rem;
+  color: var(--text-light);
+  font-size: 1.3rem;
   text-decoration: none;
   font-weight: 500;
   transition: var(--transition);

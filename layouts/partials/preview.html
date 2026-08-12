@@ -2,10 +2,21 @@
   <div class="index-preview-container">
     <h2>Free Books</h2>
     <div class="index-preview-contents">
-      <p>Free Books</p>
+      <p class="index-preview-contents-p">
+      Below are free books written by the founder Enoch Yu.
+      For more information on the book and details on contribution,
+      please visit each page.</p>
       <div class="index-preview-contents-cards">
         {{ range where .Site.RegularPages "Section" "books" }}
-          {{ partial "preview-card.html" . }}
+          <div class="card-preview">
+            <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}"
+                 class="card-preview-image">
+
+            <div class="card-preview-content">
+              <a href="{{ .Permalink }}" class="card-preview-title">{{ .Title }}</a>
+              <a href="{{ .Permalink }}" class="btn1">Learn More</a>
+            </div>
+          </div>
         {{ end }}
       </div>
     </div>
@@ -16,11 +27,27 @@
   <div class="index-preview-container">
     <h2>Free Handouts</h2>
     <div class="index-preview-contents">
-      <p>Selected handouts</p>
+      <p class="index-preview-contents-p">
+      Below are selected free handouts. Please visit
+      <a href="/handouts">here</a> to view all handouts.
+      </p>
       <div class="index-preview-contents-cards">
+      <div class="index-handouts-container">
         {{ range hugo.Data.handouts02 }}
-          {{ partial "preview-card.html" . }}
+          {{ range .links }}
+          <div class="index-handouts-card">
+            <h3>{{ .label }}</h3>
+            <iframe src="{{ .pdf }}" width="100%" height="600px"></iframe>
+            <div class="index-handouts-link">
+              <a href="{{ .pdf | relURL }}"
+                 class="btn1 btn-handouts">Open PDF</a>
+              <a href="{{ .tex | relURL }}"
+                 class="btn1 btn-handouts">TeX (Git)</a>
+            </div>
+          </div>
+          {{ end }}
         {{ end }}
+      </div>
       </div>
     </div>
   </div>
@@ -30,10 +57,22 @@
   <div class="index-preview-container">
     <h2>Free Classes</h2>
     <div class="index-preview-contents">
-      <p>Selected Classes</p>
+      <p class="index-preview-contents-p">
+      Below are the recordings of selected classes. Please visit
+      <a href="/classes">here</a> to learn more about live classes
+      and past classes!
+      </p>
       <div class="index-preview-contents-cards">
         {{ range where .Site.RegularPages "Section" "classes" }}
-          {{ partial "preview-card.html" . }}
+          <div class="card-preview">
+            <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}"
+                 class="card-preview-image">
+
+            <div class="card-preview-content">
+              <a href="{{ .Permalink }}" class="card-preview-title">{{ .Title }}</a>
+              <a href="{{ .Permalink }}" class="btn1">Learn More</a>
+            </div>
+          </div>
         {{ end }}
       </div>
     </div>

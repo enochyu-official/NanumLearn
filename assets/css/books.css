@@ -6,30 +6,36 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-  gap: 0.5rem;
+  gap: 1.5rem;
 }
 
 .books-container {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  height: 23rem;
-  width: 70rem;
-  border: 1px solid #ddd;
-  border-radius: 16px;
-  background: #fff;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.06);
+  height: 21vw;
+  width: 70vw;
+  border-radius: 8px;
   overflow: hidden;
-  gap: 5rem;
+  background: var(--bg-color1);
+  border: 1px solid rgba(128, 128, 128, 0.65);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.05);
+  gap: 3rem;
   padding-right: 5rem;
+  transition: var(--transition);
+}
+
+.books-container:hover {
+  transform: scale(1.01);
+  background: var(--bg-color2);
 }
 
 .books-container iframe {
-  height: 23rem;
-  width: 23rem;
+  height: 21vw;
+  width: 30vw;
   object-fit: cover;
   object-position: center;
-  border-radius: 16px;
+  border: none;
 }
 
 .books-card {
@@ -62,12 +68,7 @@
   font-size: 2.1rem;
   color: var(--accent-color1);
   cursor: pointer;
-  transition: font-size 0.2s ease;
-}
-
-.books-card h3 a:hover {
-  color: var(--accent-color2);
-  font-size: 2.15rem;
+  line-height: 2.3rem;
 }
 
 

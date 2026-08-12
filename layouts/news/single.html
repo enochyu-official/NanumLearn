@@ -3,6 +3,8 @@
   <article class="post-content">
     <h1 class="post-title">{{ .Title }}</h1>
     <div class="post-meta">
+      Author: {{ .Params.Author }}
+      <span class="space">|</span>
       <i class="far fa-calendar"></i> {{ .Date.Format "January 2, 2006" }}
       <span class="space">|</span>
       <i class="far fa-clock"></i> {{ .ReadingTime }} min read
