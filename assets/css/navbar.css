@@ -6,7 +6,8 @@ header {
 }
 
 .navbar {
-  background: rgba(28, 28, 30, 0.95);
+  /* background: rgba(28, 28, 30, 0.95); */
+  background-color: var(--bg-color);
   backdrop-filter: blur(10px);
   width: 100%;
   position: sticky;
@@ -25,12 +26,9 @@ header {
   align-items: center;
 }
 
-.nav-logo {
-  color: #F5F3F0;
-  font-size: 2rem;
-  font-weight: 700;
-  text-decoration: none;
-  letter-spacing: 1px;
+.nav-logo img {
+  height: 50px;
+  display: block;
 }
 
 .nav-menu {
@@ -40,7 +38,7 @@ header {
 }
 
 .nav-link {
-  color: var(--text-light);
+  color: var(--text-dark);
   font-size: 1.3rem;
   text-decoration: none;
   font-weight: 500;

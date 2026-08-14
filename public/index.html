@@ -12,12 +12,15 @@
 
 <title>Nanum Learn</title>
 
-<link rel="icon" href="/img/favicon/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+<link rel="manifest" href="/favicon/site.webmanifest">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 <link rel="canonical" href="https://nanumlearn.enochyu.com/" />
 
 
-<link rel="stylesheet" href="/css/bundle.min.ec3510de0c114aa45fca4d419d4bbdac5da762373d6c79e9a25ced7c23fc9f60.css" integrity="sha256-7DUQ3gwRSqRfyk1BnUu9rF2nYjc9bHnpolztfCP8n2A=">
+<link rel="stylesheet" href="/css/bundle.min.7248bf8841df5b54be8076a9dfc803327553492a517a39c50fe74f30dc94c6bf.css" integrity="sha256-cki/iEHfW1S&#43;gHap38gDMnVTSSpRejnFD&#43;dPMNyUxr8=">
 
 <script type="application/ld+json">
 {
@@ -34,7 +37,7 @@
   <header>
   <nav class="navbar">
     <div class="nav-container">
-      <a href="/" class="nav-logo">Nanum Learn</a>
+      <a href="/" class="nav-logo"><img src="/logo/logo-inline.svg"></a>
 
       <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
         <img src="/img/burger.svg" alt="Menu" class="icon-burger">
@@ -59,7 +62,6 @@
   <section id="index-profile">
   <div id="index-profile-description">
     <div id="index-profile-logo">
-      <img src="/img/avatar-founder.jpg">
       <h2>Nanum Learn</h2>
     </div>
     <p>"Learned to be Shared"
@@ -80,6 +82,12 @@
         <a href="https://www.youtube.com/channel/UCCnkn0YRKStraznc7kuICRg" target="_blank" rel="noopener"
            aria-label="Youtube" class="btn1">Subscribe</a>
         
+      </div>
+
+      <div class="index-profile-join-cards">
+        <h3>Sign Up</h3>
+        <p>Sign up for any newsletter and updates
+        <br>on live classes!</p>
       </div>
 
       <div class="index-profile-join-cards">
@@ -115,32 +123,35 @@
       <div class="index-preview-contents-cards">
         
           <div class="card-preview">
-            <img src="/" alt="Enoch&#39;s Notebook: An Introduction to Linear Algebra"
-                 class="card-preview-image">
-
+            <a href="http://localhost:1313/books/26001/" class="card-preview-title">Enoch&#39;s Notebook: An Introduction to Linear Algebra</a>
             <div class="card-preview-content">
-              <a href="http://localhost:1313/books/26001/" class="card-preview-title">Enoch&#39;s Notebook: An Introduction to Linear Algebra</a>
-              <a href="http://localhost:1313/books/26001/" class="btn1">Learn More</a>
+              <img src="/" alt="Enoch&#39;s Notebook: An Introduction to Linear Algebra"
+                   class="card-preview-image">
+              <div class="card-preview-content-last">
+                <a href="http://localhost:1313/books/26001/" class="btn1">Learn More</a>
+              </div>
             </div>
           </div>
         
           <div class="card-preview">
-            <img src="/" alt="LibreNotebook"
-                 class="card-preview-image">
-
+            <a href="http://localhost:1313/books/26002/" class="card-preview-title">LibreNotebook</a>
             <div class="card-preview-content">
-              <a href="http://localhost:1313/books/26002/" class="card-preview-title">LibreNotebook</a>
-              <a href="http://localhost:1313/books/26002/" class="btn1">Learn More</a>
+              <img src="/" alt="LibreNotebook"
+                   class="card-preview-image">
+              <div class="card-preview-content-last">
+                <a href="http://localhost:1313/books/26002/" class="btn1">Learn More</a>
+              </div>
             </div>
           </div>
         
           <div class="card-preview">
-            <img src="/" alt="Enoch&#39;s Notebook: Machine Learning"
-                 class="card-preview-image">
-
+            <a href="http://localhost:1313/books/26003/" class="card-preview-title">Enoch&#39;s Notebook: Machine Learning</a>
             <div class="card-preview-content">
-              <a href="http://localhost:1313/books/26003/" class="card-preview-title">Enoch&#39;s Notebook: Machine Learning</a>
-              <a href="http://localhost:1313/books/26003/" class="btn1">Learn More</a>
+              <img src="/" alt="Enoch&#39;s Notebook: Machine Learning"
+                   class="card-preview-image">
+              <div class="card-preview-content-last">
+                <a href="http://localhost:1313/books/26003/" class="btn1">Learn More</a>
+              </div>
             </div>
           </div>
         
@@ -227,17 +238,74 @@
       <a href="/classes">here</a> to learn more about live classes
       and past classes!
       </p>
-      <div class="index-preview-contents-cards">
-        
-          <div class="card-preview">
-            <img src="/img/avatar-founder.jpg" alt="Problem of the Day: 100 Problems for 100 Days"
-                 class="card-preview-image">
 
-            <div class="card-preview-content">
-              <a href="http://localhost:1313/classes/26004/" class="card-preview-title">Problem of the Day: 100 Problems for 100 Days</a>
-              <a href="http://localhost:1313/classes/26004/" class="btn1">Learn More</a>
+      <div class="classes-container">
+        
+        <div class="classes-preview">
+          <div class="classes-preview-content">
+            <a href="http://localhost:1313/classes/26004/"
+               class="classes-preview-title">Problem of the Day: 100 Problems for 100 Days</a>
+
+            <div class="classes-preview-meta">
+              Number of Classes: 83
+              <br>
+              Status: WIP
+              <br>
+              Last Updated: August 9, 2026
+              <br>
+            </div>
+            <hr>
+
+            <p class="classes-preview-description">An introduction to math olympiads with 100 problems from various sources including International Mathematical Olympiad (IMO) and National Math Olympiad (NMO).</p>
+            <div class="classes-preview-content-last">
+              <a href="http://localhost:1313/classes/26004/" class="btn1">Read more</a>
             </div>
           </div>
+        </div>
+        
+        <div class="classes-preview">
+          <div class="classes-preview-content">
+            <a href="http://localhost:1313/classes/25002/"
+               class="classes-preview-title">2025 Introduction to AMC 10/12</a>
+
+            <div class="classes-preview-meta">
+              Number of Classes: 4
+              <br>
+              Status: Completed
+              <br>
+              Last Updated: September 1, 2025
+              <br>
+            </div>
+            <hr>
+
+            <p class="classes-preview-description">Live classes for middle and high school students interested in AMC 10/12</p>
+            <div class="classes-preview-content-last">
+              <a href="http://localhost:1313/classes/25002/" class="btn1">Read more</a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="classes-preview">
+          <div class="classes-preview-content">
+            <a href="http://localhost:1313/classes/25001/"
+               class="classes-preview-title">2025 Introduction to AMC 8</a>
+
+            <div class="classes-preview-meta">
+              Number of Classes: 9
+              <br>
+              Status: Completed
+              <br>
+              Last Updated: September 1, 2025
+              <br>
+            </div>
+            <hr>
+
+            <p class="classes-preview-description">Four live classes for introducing competition style problems to elementary school students</p>
+            <div class="classes-preview-content-last">
+              <a href="http://localhost:1313/classes/25001/" class="btn1">Read more</a>
+            </div>
+          </div>
+        </div>
         
       </div>
     </div>

@@ -38,12 +38,21 @@
   border: none;
 }
 
+.books-container img {
+  height: 21vw;
+  width: 20vw;
+  object-fit: cover;
+  object-position: center;
+  border: none;
+}
+
 .books-card {
   display: flex;
   flex-direction: column;
   align-items: left;
   justify-content: center;
   gap: 1rem;
+  width: 100%;
 }
 
 .books-card-btns {

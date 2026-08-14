@@ -33,6 +33,15 @@
   margin-bottom: 3rem;
 }
 
+.about-container p {
+  font-size: 1.3rem;
+}
+
+.about-container ul {
+  font-size: 1.3rem;
+  margin-left: 3rem;
+}
+
 .about-container h2 {
   width: 100%;
   margin-top: 1.2rem;
@@ -44,17 +53,36 @@
   font-weight: bold;
 }
 
+.about-container h3 {
+  width: 100%;
+  margin-top: 1.2rem;
+  color: var(--text-dark);
+  border-bottom: 2px solid var(--accent-color1);
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+
+#about-container-mission h2 {
+  font-size: 2.8rem;
+}
+
+#about-container-mission p {
+  font-size: 2.1rem !important;
+}
 
 /* Founder */
 #about-founder-card {
   display: flex;
-  flex-direction: row;
-  gap: 2rem;
+  align-items: center;
+  gap: 4rem;
 }
 
 #about-founder-card img {
-  width: 250px;
-  height: 250px;
+  width: 280px;
+  height: 280px;
   object-fit: cover;
   object-position: center;
   border-radius: 30px;
@@ -65,15 +93,48 @@
   flex-direction: column;
   align-items: left;
   justify-content: center;
-  margin: 3rem;
-  gap: 1rem;
+  gap: 0.5rem;
 }
 
 #about-founder-description h3 {
+  margin: 0;
   font-size: 2.8rem;
+  border: none;
 }
 
 #about-founder-description p {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
+
+
+#about-join-container {
+  display: flex;
+  gap: 0.5rem;
+  width: 100%;
+  align-items: stretch;
+}
+
+.about-join-cards {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(128, 128, 128, 0.65);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+  overflow: hidden;
+  padding: 1rem;
+  gap: 0.5rem;
+}
+
+.about-join-cards h3, h3 a {
+  color: var(--accent-color1);
+  font-size: 1.6rem;
+  border: none;
+  margin: 0;
+}
+
+.about-join-cards p {
+  font-size: 1.1rem;
+}
+
 

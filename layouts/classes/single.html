@@ -5,25 +5,26 @@
 <section class="single-section">
   <section class="single-content-section">
     <div class="single-content">
-      <iframe src="{{ .Params.link }}"></iframe>
+      <img src="{{ .Params.Image }}"></img>
       <div class="single-meta">
         <ul>
-          <li>Author: {{ .Params.Author }}</li>
-          <li>Status: {{ .Params.Status }}</li>
-          <li>Last Updated: {{ .Date.Format "January 2, 2006" }}</li>
-          <li>Total Views:</li>
-        </ul>
-        <hr style="margin: 0.5rem 0">
-        <h3>Access Classes</h3>
-        <ul class="single-meta-access">
-          <li><a href="{{ .Params.Link1 }}">Overview (PDF)</a></li>
-          <li><a href="{{ .Params.Link2 }}">Playlist</a></li>
+          <li><b>Author:</b> {{ .Params.Author }}</li>
+          <li><b>Status:</b> {{ .Params.Status }}</li>
+          <li><b>Last Updated:</b> {{ .Date.Format "January 2, 2006" }}</li>
+          <li><b>Total Views:</b></li>
         </ul>
       </div>
     </div>
     <div class="single-description">
       <h3>About</h3>
       {{ .Content }}
+      <h3>Access Classes</h3>
+      <hr>
+      <ul class="single-meta-access">
+        {{ range .Params.links }}
+          <li><a href="{{ .url }}">{{ .name }}</a></li>
+        {{ end }}
+      </ul>
     </div>
   </section>
 

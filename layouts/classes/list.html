@@ -3,20 +3,25 @@
   <h1>Classes</h1>
 </div>
 <br>
-<section class="classes-section">
-  <div class="classes-container">
+<section class="books-section">
     {{ range .RegularPages }}
-    <div class="classes-preview">
-      <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
-
-      <div class="classes-preview-content">
-        <a href="{{ .Permalink }}"
-           class="classes-preview-title">{{ .Title }}</a>
-
+    <div class="books-container">
+      <img src="{{ .Params.Image }}"></img>
+      <div class="books-card">
+        <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
         <div class="classes-preview-meta">
-          Status: {{ .Params.Status }}
+          Number of Classes: {{ .Params.Classnum }}
           <br>
-          Last Updated: {{ .Date.Format "January 2, 2006" }}
+          {{ if eq .Params.Status "Completed" }}
+            Status: Completed
+            <br>
+            End Date: {{ .Date.Format "January 2, 2006" }}
+          {{ else if eq .Params.Status "WIP" }}
+            Status: WIP
+            <br>
+            Last Updated: {{ .Date.Format "January 2, 2006" }}
+          {{ end }}
+          <br>
         </div>
         <hr>
 
@@ -25,8 +30,7 @@
         <a href="{{ .Permalink }}" class="btn1">Read more</a>
       </div>
     </div>
-    {{ end }}
-  </div>
+  {{ end }}
 </section>
 <br>
 {{ end }}

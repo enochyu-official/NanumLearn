@@ -21,6 +21,13 @@
 				<description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&#xA;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&lt;/p&gt;</description>
 			</item>
 			<item>
+				<title>Problem of the Day: 100 Problems for 100 Days</title>
+				<link>http://localhost:1313/classes/26004/</link>
+				<pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/classes/26004/</guid>
+				<description>&lt;p&gt;As the name suggests, &amp;ldquo;Problem of the Day: 100 Problem for 100 Days&amp;rdquo;&#xA;solves 100 olympiad problems from diverse sources. The problems&#xA;are mixed with hard and easier problems with sources varying from&#xA;famous olympiads to original problems. The links to the handwritten&#xA;PDF files and video solutions for each problem can be found in&#xA;the overview PDF below.&lt;/p&gt;</description>
+			</item>
+			<item>
 				<title>LibreNotebook</title>
 				<link>http://localhost:1313/books/26002/</link>
 				<pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
@@ -28,11 +35,11 @@
 				<description></description>
 			</item>
 			<item>
-				<title>Problem of the Day: 100 Problems for 100 Days</title>
-				<link>http://localhost:1313/classes/26004/</link>
-				<pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/classes/26004/</guid>
-				<description>&lt;p&gt;As the name suggests, &amp;ldquo;Problem of the Day: 100 Problem for 100 Days&amp;rdquo;&#xA;solves 100 olympiad problems from diverse sources. The problems&#xA;are mixed with hard and easier problems with sources varying from&#xA;famous olympiads to original problems. The links to the handwritten&#xA;PDF files and video solutions for each problem can be found in&#xA;the overview PDF on the right.&lt;/p&gt;</description>
+				<title>2025 Introduction to AMC 10/12</title>
+				<link>http://localhost:1313/classes/25002/</link>
+				<pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/classes/25002/</guid>
+				<description>&lt;p&gt;The four live classes introduces competition style math to elementary&#xA;students with problems and concepts from AMC 8. Handouts and&#xA;recordings can be found on the left.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Enoch&#39;s Notebook: Machine Learning</title>
@@ -40,6 +47,13 @@
 				<pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
 				<guid>http://localhost:1313/books/26003/</guid>
 				<description></description>
+			</item>
+			<item>
+				<title>2025 Introduction to AMC 8</title>
+				<link>http://localhost:1313/classes/25001/</link>
+				<pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/classes/25001/</guid>
+				<description>&lt;p&gt;The four live classes introduces competition style math to elementary&#xA;students with problems and concepts from AMC 8. Handouts and&#xA;recordings can be found on the left.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>We are here!</title>

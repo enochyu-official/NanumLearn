@@ -1,8 +1,11 @@
 {{ define "main" }}
 <section class="about-section" id="about-mission">
-  <div class="about-container">
+  <div class="about-container" id="about-container-mission">
     <h2>Our Mission</h2>
-    <p></p>
+    <p>
+    To inspire global learners by returning knowledge and skills
+    we have received.
+    </p>
   </div>
 </section>
 <hr class="styled-hr">
@@ -13,30 +16,134 @@
       <img src="/img/avatar-founder.jpg" alt="avatar">
       <div id="about-founder-description">
         <h3>Enoch Yu</h3>
-        <p></p>
+        <p>Enoch is an ardent student who retains keen interest
+        in pure math, machine learning, and quantitative finance.
+        His previous accomplishments includes honorable mention
+        from Korean Mathematical Olympiad (~300 in South Korea)
+        and numerous awards from AMC. He currently dedicates his
+        focus on making YouTube videos on various math topics
+        and Nanum Learn. More on Enoch can be found in his
+        <a href="https://enochyu.com">personal website</a>.</p>
       </div>
     </div>
   </div>
 </section>
 
-<section class="about-section" id="about-contribute">
+<section class="about-section" id="about-nanumlearn">
   <div class="about-container">
     <h2>About Nanum Learn</h2>
-    <p></p>
+    <p>
+    Nanum Learn is an educational initiative that aims to
+    accelerate open learning by providing original and accessible
+    resources such as books, handouts, and free classes.
+    We aim to make the contents and resources more accessible
+    by distributing the works under CC BY 4.0. Under the permissive
+    license, the users are allowed to share and adapt for any
+    purpose as long as an appropriate credit is given. For more
+    information the use, please visit <a href="">LICENSE</a>.
+    </p>
+    <h3>Motivation</h3>
+    <p>
+    </p>
   </div>
 </section>
 
 <section class="about-section" id="about-contribute">
   <div class="about-container">
     <h2>Contribute</h2>
-    <p></p>
+    <p>
+    First, thank you so much for your interest and your time.
+    As you may have noticed from our purpose, we welcome and
+    encourage contributions. That being said, no one is "qualified"
+    to contribute to Nanum Learn. If you have the passion, we value
+    all contributions from any skill levels and background!
+    </p>
+    <h3>How to Contribute</h3>
+    <p>
+    As a growing initiative, we have multiple areas where we look
+    forward for community contributions. The list of areas is available
+    <a href="">here</a>. If you have programming background, please
+    open an issue or submit a pull request in our repository hosted
+    in GitHub. If you are less familiar with Git, you can also submit
+    a form <a href="">here</a>.
+    <br><br>
+    There will be no Contributor License Agreement. However, contributing
+    will imply that you abide with our rules in <a href="">CONTRIBUTING.md</a>
+    and AI Policy below. Thank you again for your time and efforts!
+    </p>
+    <h3>AI Policy</h3>
+    <p>
+    We believe that AI is a useful tool that can help us in numerous
+    ways, and we actually encourage the use of AI for assistance.
+    However, we value transparency, credits, and quality. Many AI
+    generated contents fails to receive proper credits and quality
+    checks. We will not and do not have the capacity to check if
+    each contribution is AI generated. However, for transparency
+    and trust between contributors, please disclose if your contribution
+    is AI generated (no need for AI assistance). Below are some examples
+    of different AI usage.
+    <ul>
+      <li>
+        Examples of AI Assisted contents includes, but are not limited to:
+      </li>
+      <ul>
+        <li>Spell checks for original contents</li>
+        <li>Checking whether the content is correct</li>
+        <li>Debugging any programming errors</li>
+      </ul>
+      <li>
+        Examples of AI Generated contents include, but are not limited to:
+      </li>
+      <ul>
+        <li>Using AI to generate contents and paraphrasing afterwards</li>
+        <li>
+          Using AI as a "search engine" as a sole way to find contents
+          like definitions and theorems to include in the notes
+        </li>
+        <li>Using AI to rewrite a large portion of the original contents</li>
+      </ul>
+    </p>
   </div>
 </section>
 
 <section class="about-section" id="about-begin">
   <div class="about-container">
     <h2>Begin</h2>
-    add register YouTube or something like that here
+    <div id="about-join-container">
+      <div class="about-join-cards">
+        {{ with .Site.Params.social.youtube }}
+        <h3><a href="{{ . }}" target="_blank" rel="noopener"
+               aria-label="YouTube"><i class="fab fa-youtube"></i>
+               YouTube</a></h3>
+        <p>Every recordings for the classes and related videos
+           are uploaded in this channel.</p>
+        <a href="{{ . }}" target="_blank" rel="noopener"
+           aria-label="Youtube" class="btn1">Subscribe</a>
+        {{ end }}
+      </div>
+
+      <div class="about-join-cards">
+        <h3>Sign Up</h3>
+        <p>Sign up for any newsletter and updates on live classes!</p>
+      </div>
+      
+      <div class="about-join-cards">
+        {{ with .Site.Params.social.github }}
+        <h3><a href="{{ . }}" target="_blank" rel="noopener"
+               aria-label="GitHub"><i class="fab fa-github"></i>
+               GitHub</a></h3>
+        <p>All source codes for related works are stored here.
+            Pull requests are welcomed!</p>
+        <a href="{{ . }}" target="_blank" rel="noopener"
+           aria-label="GitHub" class="btn1">Contribute</a>
+        {{ end }}
+      </div>
+
+      <div class="about-join-cards">
+        <h3>Total Visits</h3>
+        <p>Counted by Cloudflare</p>
+      </div>
+    </div>
   </div>
 </section>
 {{ end }}

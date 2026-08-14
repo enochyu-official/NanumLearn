@@ -9,12 +9,13 @@
       <div class="index-preview-contents-cards">
         {{ range where .Site.RegularPages "Section" "books" }}
           <div class="card-preview">
-            <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}"
-                 class="card-preview-image">
-
+            <a href="{{ .Permalink }}" class="card-preview-title">{{ .Title }}</a>
             <div class="card-preview-content">
-              <a href="{{ .Permalink }}" class="card-preview-title">{{ .Title }}</a>
-              <a href="{{ .Permalink }}" class="btn1">Learn More</a>
+              <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}"
+                   class="card-preview-image">
+              <div class="card-preview-content-last">
+                <a href="{{ .Permalink }}" class="btn1">Learn More</a>
+              </div>
             </div>
           </div>
         {{ end }}
@@ -62,17 +63,30 @@
       <a href="/classes">here</a> to learn more about live classes
       and past classes!
       </p>
-      <div class="index-preview-contents-cards">
-        {{ range where .Site.RegularPages "Section" "classes" }}
-          <div class="card-preview">
-            <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}"
-                 class="card-preview-image">
 
-            <div class="card-preview-content">
-              <a href="{{ .Permalink }}" class="card-preview-title">{{ .Title }}</a>
-              <a href="{{ .Permalink }}" class="btn1">Learn More</a>
+      <div class="classes-container">
+        {{ range where .Site.RegularPages "Section" "classes" }}
+        <div class="classes-preview">
+          <div class="classes-preview-content">
+            <a href="{{ .Permalink }}"
+               class="classes-preview-title">{{ .Title }}</a>
+
+            <div class="classes-preview-meta">
+              Number of Classes: {{ .Params.Classnum }}
+              <br>
+              Status: {{ .Params.Status }}
+              <br>
+              Last Updated: {{ .Date.Format "January 2, 2006" }}
+              <br>
+            </div>
+            <hr>
+
+            <p class="classes-preview-description">{{ .Description }}</p>
+            <div class="classes-preview-content-last">
+              <a href="{{ .Permalink }}" class="btn1">Read more</a>
             </div>
           </div>
+        </div>
         {{ end }}
       </div>
     </div>

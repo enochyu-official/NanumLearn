@@ -8,14 +8,23 @@
       <iframe src="{{ .Params.link }}"></iframe>
       <div class="single-meta">
         <ul>
-          <li>Author: {{ .Params.Author }}</li>
-          <li>Last Updated: {{ .Date.Format "January 2, 2006" }}</li>
-          <li>Total Views:</li>
+          <li><b>Author:</b> {{ .Params.Author }}</li>
+          <li><b>Status:</b> {{ .Params.Status }}</li>
+          <li><b>Last Updated:</b> {{ .Date.Format "January 2, 2006" }}</li>
+          <li><b>Total Views:</b></li>
         </ul>
       </div>
     </div>
     <div class="single-description">
+      <h3>About</h3>
       {{ .Content }}
+      <h3>Access the Book</h3>
+      <hr>
+      <ul class="single-meta-access">
+        {{ range .Params.links }}
+          <li><a href="{{ .url }}">{{ .name }}</a></li>
+        {{ end }}
+      </ul>
     </div>
   </section>
 
