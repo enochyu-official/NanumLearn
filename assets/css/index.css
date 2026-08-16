@@ -112,6 +112,17 @@
   margin-top: auto;
 }
 
+#counted-by-cloudflare {
+  margin-top: auto;
+}
+
+.display-view-count {
+  color: var(--accent-color1);
+  font-size: 4rem;
+  align-self: center;
+  justify-self: center;
+  font-weight: 800;
+}
 
 /*** Preview ***/
 .index-preview {
@@ -414,6 +425,14 @@
 
   .index-handouts-card h3 {
     font-size: 1.2rem;
+  }
+  
+  .display-view-count {
+    color: var(--accent-color1);
+    font-size: 3rem;
+    align-self: center;
+    justify-self: center;
+    font-weight: 400;
   }
 }
 

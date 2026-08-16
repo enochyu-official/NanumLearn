@@ -1,9 +1,9 @@
 name = "nanumlearn-view-counter-db"
-compatibility_date = "2026-08-08"
+compatibility_date = "2026-08-16"
 main = "src/index.ts"
 
 [[d1_databases]]
 binding = "DB"
 database_name = "nanumlearn-view-counter-db"
-database_id = ""
+database_id = "adcff3d4-007b-4e1a-a76e-28c95c3810c4"
 
