@@ -8,11 +8,11 @@
       <div class="toc-title">Table of Contents</div>
       <nav>
         <ul>
-          <li><a href="#handouts02">
-              Olympiad Topics ({{ len hugo.Data.handouts01 }})
-          </a></li>
           <li><a href="#handouts01">
               Olympiad Topics ({{ len hugo.Data.handouts01 }})
+          </a></li>
+          <li><a href="#handouts02">
+              Fun Math ({{ len hugo.Data.handouts02 }})
           </a></li>
         </ul>
       </nav>
@@ -21,7 +21,7 @@
 
   <section class="toc-section-content">
     <section class="handouts-section">
-      <h2 id="handouts02">
+      <h2 id="handouts01">
         Olympiad Topics
         <small><small><small>
         ({{ len hugo.Data.handouts01 }} Handouts)
@@ -29,14 +29,18 @@
       </h2>
       <div class="handouts-container">
         {{ range hugo.Data.handouts01 }}
+          {{ $root := . }}
           {{ range .links }}
           <div class="handouts-card">
             <h3>{{ .label }}</h3>
+            <h4>Date: {{ $root.date }}</h4>
             <iframe src="{{ .pdf }}" width="100%" height="600px"></iframe>
             <div class="handouts-link">
               <a href="{{ .pdf | relURL }}"
+                 target="_blank" rel="noopener"
                  class="btn1 btn-handouts">Open PDF</a>
               <a href="{{ .tex | relURL }}"
+                 target="_blank" rel="noopener"
                  class="btn1 btn-handouts">TeX (Git)</a>
             </div>
           </div>
@@ -46,22 +50,26 @@
     </section>
 
     <section class="handouts-section">
-      <h2 id="handouts01">
-        Olympiad Topics
+      <h2 id="handouts02">
+        Fun Math
         <small><small><small>
-        ({{ len hugo.Data.handouts01 }} Handouts)
+        ({{ len hugo.Data.handouts02 }} Handouts)
         </small></small></small>
       </h2>
       <div class="handouts-container">
         {{ range hugo.Data.handouts02 }}
+          {{ $root := . }}
           {{ range .links }}
           <div class="handouts-card">
             <h3>{{ .label }}</h3>
+            <h4>Date: {{ $root.date }}</h4>
             <iframe src="{{ .pdf }}" width="100%" height="600px"></iframe>
             <div class="handouts-link">
               <a href="{{ .pdf | relURL }}"
+                 target="_blank" rel="noopener"
                  class="btn1 btn-handouts">Open PDF</a>
               <a href="{{ .tex | relURL }}"
+                 target="_blank" rel="noopener"
                  class="btn1 btn-handouts">TeX (Git)</a>
             </div>
           </div>

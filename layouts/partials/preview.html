@@ -1,6 +1,8 @@
 <section class="index-preview">
   <div class="index-preview-container">
-    <h2>Free Books</h2>
+    <h2>Free Books<small><small>
+        (<a href="/books">Learn More</a>)
+      </small></small></h2>
     <div class="index-preview-contents">
       <p class="index-preview-contents-p">
       Below are free books written by the founder Enoch Yu.
@@ -11,8 +13,8 @@
           <div class="card-preview">
             <a href="{{ .Permalink }}" class="card-preview-title">{{ .Title }}</a>
             <div class="card-preview-content">
-              <img src="{{ .Params.image | relURL }}" alt="{{ .Title }}"
-                   class="card-preview-image">
+              <iframe src="{{ .Params.link | relURL }}"
+                      alt="{{ .Title }}"></iframe>
               <div class="card-preview-content-last">
                 <a href="{{ .Permalink }}" class="btn1">Learn More</a>
               </div>
@@ -26,7 +28,9 @@
 
 <section class="index-preview">
   <div class="index-preview-container">
-    <h2>Free Handouts</h2>
+    <h2>Free Handouts<small><small>
+        (<a href="/handouts">Learn More</a>)
+      </small></small></h2>
     <div class="index-preview-contents">
       <p class="index-preview-contents-p">
       Below are selected free handouts. Please visit
@@ -34,7 +38,7 @@
       </p>
       <div class="index-preview-contents-cards">
       <div class="index-handouts-container">
-        {{ range hugo.Data.handouts02 }}
+        {{ range hugo.Data.handouts00 }}
           {{ range .links }}
           <div class="index-handouts-card">
             <h3>{{ .label }}</h3>
@@ -56,7 +60,9 @@
 
 <section class="index-preview">
   <div class="index-preview-container">
-    <h2>Free Classes</h2>
+    <h2>Free Classes<small><small>
+        (<a href="/classes">Learn More</a>)
+      </small></small></h2>
     <div class="index-preview-contents">
       <p class="index-preview-contents-p">
       Below are the recordings of selected classes. Please visit

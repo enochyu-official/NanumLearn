@@ -81,6 +81,16 @@
   padding-left: 1rem !important;
 }
 
+.single-meta-access-book {
+  width: 100%;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.single-meta-access-book a {
+  width: 100%;
+}
+
 .single-description {
   flex: 7;
   display: flex;

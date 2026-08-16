@@ -1,41 +1,21 @@
 [
   {
-    "date": "29 April 2025",
+    "date": "24 April 2026",
     "links": [
       {
-        "label": "Problem Set 3",
-        "pdf": "https://archive.enochyu.com/mathematics/pdf/25006.pdf",
-        "tex": "/mathematics/tex/25006.tex"
+        "label": "Shape Maze Solution",
+        "pdf": "https://archive.enochyu.com/mathematics/pdf/26016.pdf",
+        "tex": "https://github.com/enochyu-official/archive.enochyu.com/blob/main/static/mathematics/tex/26016.tex"
       }
     ]
   },
   {
-    "date": "29 April 2025",
+    "date": "1 May 2025",
     "links": [
       {
-        "label": "Problem Set 2",
-        "pdf": "/mathematics/pdf/25006.pdf",
-        "tex": "/mathematics/tex/25006.tex"
-      }
-    ]
-  },
-  {
-    "date": "29 April 2025",
-    "links": [
-      {
-        "label": "Problem Set 2",
-        "pdf": "/mathematics/pdf/25006.pdf",
-        "tex": "/mathematics/tex/25006.tex"
-      }
-    ]
-  },
-  {
-    "date": "29 April 2025",
-    "links": [
-      {
-        "label": "Problem Set 2",
-        "pdf": "/mathematics/pdf/25006.pdf",
-        "tex": "/mathematics/tex/25006.tex"
+        "label": "Ramanujan Summation",
+        "pdf": "https://archive.enochyu.com/mathematics/pdf/25008.pdf",
+        "tex": "https://github.com/enochyu-official/archive.enochyu.com/blob/main/static/mathematics/tex/25008.tex"
       }
     ]
   }

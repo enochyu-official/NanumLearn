@@ -9,8 +9,13 @@
       <div class="single-meta">
         <ul>
           <li><b>Author:</b> {{ .Params.Author }}</li>
-          <li><b>Status:</b> {{ .Params.Status }}</li>
+          {{ if eq .Params.Status "Completed" }}
+          <li><b>Status:</b> Completed</li>
+          <li><b>End Date:</b> {{ .Date.Format "January 2, 2006" }}</li>
+          {{ else if eq .Params.Status "WIP" }}
+          <li><b>Status:</b> WIP</li>
           <li><b>Last Updated:</b> {{ .Date.Format "January 2, 2006" }}</li>
+          {{ end }}
           <li><b>Total Views:</b></li>
         </ul>
       </div>

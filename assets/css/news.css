@@ -107,6 +107,11 @@
   margin-bottom: 20px;
 }
 
+.post-body ul {
+  margin-left: 4rem;
+  margin-bottom: 1.5rem;
+}
+
 .post-body img {
   max-width: 100%;
   height: auto;

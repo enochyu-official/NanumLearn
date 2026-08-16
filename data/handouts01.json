@@ -1,81 +1,31 @@
 [
   {
-    "date": "29 April 2025",
+    "date": "10 October 2025",
     "links": [
       {
-        "label": "Problem Set 3",
-        "pdf": "https://archive.enochyu.com/mathematics/pdf/25006.pdf",
-        "tex": "/mathematics/tex/25006.tex"
+        "label": "Desargues' Theorem",
+        "pdf": "https://archive.enochyu.com/mathematics/pdf/25062.pdf",
+        "tex": "https://github.com/enochyu-official/archive.enochyu.com/blob/main/static/mathematics/tex/25062.zip"
       }
     ]
   },
   {
-    "date": "29 April 2025",
+    "date": "30 April 2025",
     "links": [
       {
-        "label": "Problem Set 2",
-        "pdf": "/mathematics/pdf/25006.pdf",
-        "tex": "/mathematics/tex/25006.tex"
+        "label": "Trigonometric Identities",
+        "pdf": "https://archive.enochyu.com/mathematics/pdf/25007.pdf",
+        "tex": "https://github.com/enochyu-official/archive.enochyu.com/blob/main/static/mathematics/tex/25007.tex"
       }
     ]
   },
   {
-    "date": "29 April 2025",
+    "date": "25 April 2025",
     "links": [
       {
-        "label": "Problem Set 2",
-        "pdf": "/mathematics/pdf/25006.pdf",
-        "tex": "/mathematics/tex/25006.tex"
-      }
-    ]
-  },
-  {
-    "date": "29 April 2025",
-    "links": [
-      {
-        "label": "Problem Set 2",
-        "pdf": "/mathematics/pdf/25006.pdf",
-        "tex": "/mathematics/tex/25006.tex"
-      }
-    ]
-  },
-  {
-    "date": "29 April 2025",
-    "links": [
-      {
-        "label": "Problem Set 3",
-        "pdf": "https://archive.enochyu.com/mathematics/pdf/25006.pdf",
-        "tex": "/mathematics/tex/25006.tex"
-      }
-    ]
-  },
-  {
-    "date": "29 April 2025",
-    "links": [
-      {
-        "label": "Problem Set 2",
-        "pdf": "/mathematics/pdf/25006.pdf",
-        "tex": "/mathematics/tex/25006.tex"
-      }
-    ]
-  },
-  {
-    "date": "29 April 2025",
-    "links": [
-      {
-        "label": "Problem Set 2",
-        "pdf": "/mathematics/pdf/25006.pdf",
-        "tex": "/mathematics/tex/25006.tex"
-      }
-    ]
-  },
-  {
-    "date": "29 April 2025",
-    "links": [
-      {
-        "label": "Problem Set 2",
-        "pdf": "/mathematics/pdf/25006.pdf",
-        "tex": "/mathematics/tex/25006.tex"
+        "label": "Lucas's Theorem",
+        "pdf": "https://archive.enochyu.com/mathematics/pdf/25004.pdf",
+        "tex": "https://github.com/enochyu-official/archive.enochyu.com/blob/main/static/mathematics/tex/25004.tex"
       }
     ]
   }

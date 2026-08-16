@@ -4,12 +4,25 @@
 </div>
 <br>
 <section class="books-section">
-  {{ range where .Site.RegularPages "Section" "books" }}
+  {{ range .RegularPages }}
     <div class="books-container">
       <iframe src="{{ .Params.link }}"></iframe>
       <div class="books-card">
         <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
-        <span>Last Updated: {{ .Date.Format "2 January 2006" }}</span>
+        {{ if eq .Params.Status "Completed" }}
+        <div>
+          <span>Status: Completed</span>
+          <br>
+          <span>Publication Date: {{ .Date.Format "January 2, 2006" }}</span>
+        </div>
+        {{ else if eq .Params.Status "WIP" }}
+        <div>
+          <span>Status: WIP</span>
+          <br>
+          <span>Last Updated: {{ .Date.Format "January 2, 2006" }}</span>
+        </div>
+        {{ end }}
+        <hr>
         <p>{{ .Params.description }}</p>
         <div class="books-card-btns">
           <a href="{{ .Permalink }}" class="btn1 btn-books">Read More</a>
