@@ -80,9 +80,15 @@
             <div class="classes-preview-meta">
               Number of Classes: {{ .Params.Classnum }}
               <br>
-              Status: {{ .Params.Status }}
-              <br>
-              Last Updated: {{ .Date.Format "January 2, 2006" }}
+              {{ if eq .Params.Status "Completed" }}
+                Status: Completed
+                <br>
+                End Date: {{ .Date.Format "January 2, 2006" }}
+              {{ else if eq .Params.Status "WIP" }}
+                Status: WIP
+                <br>
+                Last Updated: {{ .Date.Format "January 2, 2006" }}
+              {{ end }}
               <br>
             </div>
             <hr>

@@ -81,3 +81,74 @@
 }
 
 
+@media (max-width: 992px) {
+  .books-section {
+    width: 90vw;
+  }
+
+  .books-container {
+    height: 43vw;
+    width: 90vw;
+  }
+
+  .books-container iframe, img {
+    height: 43vw;
+  }
+
+  .classes-container-img img {
+    display: none;
+  }
+
+  .books-card p {
+    font-size: 1.2rem;
+  }
+
+  .books-card h3 a {
+    font-size: 1.6rem;
+    line-height: 1.7rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .books-container {
+    height: 48vw;
+    width: 90vw;
+  }
+
+  .books-container iframe, img {
+    display: none;
+  }
+}
+
+@media (max-width: 512px) {
+  .books-section {
+    gap: 0.5rem;
+  }
+
+  .books-container {
+    height: auto;
+  }
+
+  .books-container iframe, img {
+    display: none;
+  }
+
+  .books-card {
+    gap: 0.2rem;
+    padding: 1rem;
+  }
+
+  .books-card p {
+    font-size: 1.2rem;
+  }
+
+  .books-card h3 a {
+    font-size: 1.4rem;
+    line-height: 1.5rem;
+  }
+
+  .books-card-btns a {
+    font-size: 0.7rem;
+  }
+}
+

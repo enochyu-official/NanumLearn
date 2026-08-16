@@ -7,9 +7,6 @@
   padding-left: 5rem;
   width: 100%;
   height: calc(100vh - var(--nav-height));
-  /*object-fit: cover;
-  display: block;*/
-
   background-color: #F5F3F0;
 }
 
@@ -66,6 +63,7 @@
 
 
 #index-profile-join {
+  width: 70vw;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -93,6 +91,7 @@
 }
 
 .index-profile-join-cards {
+  flex: 1;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
@@ -107,6 +106,10 @@
 .index-profile-join-cards h3, h3 a {
   color: var(--accent-color1);
   font-size: 1.6rem;
+}
+
+.index-profile-join-cards a {
+  margin-top: auto;
 }
 
 
@@ -148,6 +151,7 @@
   flex-direction: column;
   align-items: flex-start;
   margin: 0 auto;
+  width: 100%;
 }
 
 .index-preview-contents-p {
@@ -253,4 +257,163 @@
   color: #444;
 }
 
+
+@media (max-width: 992px) {
+  #index-profile {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  #index-profile-logo h2 {
+    margin-top: 4rem;
+    font-size: 6rem;
+  }
+
+  #index-profile-description p {
+    font-size: 3rem;
+  }
+
+  #index-profile-description p a i {
+    font-size: 1rem;
+  }
+
+  #index-profile-join {
+    width: 90vw;
+  }
+
+
+  /*** Preview ***/
+  .index-preview-container {
+    width: 90vw;
+  }
+
+  .index-preview-container h2 {
+    font-size: 2.2rem;
+  }
+
+  .index-handouts-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+
+  .classes-container {
+    width: 90vw;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  #index-profile-logo h2 {
+    margin-top: 4rem;
+    font-size: 6rem;
+  }
+
+  #index-profile-description p {
+    font-size: 3rem;
+  }
+
+  #index-profile-description p a i {
+    font-size: 1rem;
+  }
+
+  /*** Preview ***/
+  .card-preview-title {
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+  }
+
+  .index-preview-container h2 {
+    font-size: 2.1rem;
+  }
+
+  .classes-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 512px) {
+  #index-profile {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  #index-profile-logo h2 {
+    margin-top: 2rem;
+    font-size: 3rem;
+  }
+
+  #index-profile-description p {
+    font-size: 1.3rem;
+  }
+
+  #index-profile-description p a {
+    font-size: 1.1rem;
+  }
+
+  #index-profile-description p a i {
+    font-size: 0.8rem;
+  }
+
+  #index-profile-join {
+    width: 90vw;
+  }
+
+  #index-profile-join h2 {
+    font-size: 1.8rem;
+  }
+
+  #index-profile-join-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    width: 100%;
+  }
+
+  .index-profile-join-cards h3, h3 a {
+    color: var(--accent-color1);
+    font-size: 1.1rem;
+  }
+
+  .index-profile-join-cards p {
+    font-size: 0.7rem;
+  }
+
+  /*** Preview ***/
+  .index-preview-container {
+    width: 90vw;
+  }
+
+  .index-preview-container h2 {
+    border-bottom: 2px solid var(--accent-color1);
+    font-size: 1.8rem;
+  }
+
+  .index-preview-contents-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0.5rem;
+  }
+
+  .card-preview-content {
+    height: 250px;
+  }
+
+  .card-preview-title {
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+  }
+
+  .index-handouts-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .index-handouts-card {
+    height: 200px;
+    padding: 1rem;
+  }
+
+  .index-handouts-card h3 {
+    font-size: 1.2rem;
+  }
+}
 

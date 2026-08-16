@@ -156,3 +156,20 @@
 }
 
 
+@media (max-width: 992px) {
+  .news-container {
+    width: 60vw;
+  }
+
+  .news-container h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .news-container {
+    width: 70vw;
+  }
+}
+
+

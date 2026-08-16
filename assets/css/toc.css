@@ -34,6 +34,18 @@
   }
 }
 
+@media (max-width: 992px) {
+  .toc-section {
+    width: 90vw;
+    gap: 6.5rem;
+  }
+
+  .toc-section-content {
+    width: 100%;
+  }
+}
+
+
 .toc {
   background-color: transparent;
   border: 1px solid rgba(128, 128, 128, 0.65);
