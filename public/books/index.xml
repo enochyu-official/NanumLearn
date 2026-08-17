@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Free Textbooks on My New Hugo Project</title>
-		<link>http://localhost:1313/books/</link>
-		<description>Recent content in Free Textbooks on My New Hugo Project</description>
+		<title>Free Textbooks on Nanum Learn</title>
+		<link>https://nanumlearn.enochyu.com/books/</link>
+		<description>Recent content in Free Textbooks on Nanum Learn</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
@@ -12,19 +12,19 @@
 		
 			<lastBuildDate>Sun, 16 Aug 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/books/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://nanumlearn.enochyu.com/books/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Enoch&#39;s Notebook: An Introduction to Linear Algebra</title>
-				<link>http://localhost:1313/books/26001/</link>
+				<link>https://nanumlearn.enochyu.com/books/26001/</link>
 				<pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/books/26001/</guid>
+				<guid>https://nanumlearn.enochyu.com/books/26001/</guid>
 				<description>&lt;p&gt;Linear algebra is a foundational branch of mathematics that&#xA;primarily investigates in linear equations, vectors, and their&#xA;relations. The application of linear algebra is so immense that&#xA;numerous fields require foundational understanding of linear&#xA;algebra. For instance, it would not be possible to gain&#xA;profound understandings in machine learning and data science&#xA;without the basics of linear algebra. This collection of notes&#xA;discuss the essence of linear algebra in perspective of teaching.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>LibreNotebook</title>
-				<link>http://localhost:1313/books/26002/</link>
+				<link>https://nanumlearn.enochyu.com/books/26002/</link>
 				<pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/books/26002/</guid>
+				<guid>https://nanumlearn.enochyu.com/books/26002/</guid>
 				<description>&lt;p&gt;LibreNotebook is a giant and free notebook that anyone can read&#xA;and modify. The purpose is to inspire and accelerate open education&#xA;as a way of returning the blessings that we received from public&#xA;educational resources.&lt;/p&gt;</description>
 			</item>
 	</channel>

@@ -2,42 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/books/26001/</loc>
+    <loc>https://nanumlearn.enochyu.com/books/26001/</loc>
     <lastmod>2026-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/classes/26004/</loc>
+    <loc>https://nanumlearn.enochyu.com/classes/26004/</loc>
     <lastmod>2026-08-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/books/26002/</loc>
+    <loc>https://nanumlearn.enochyu.com/books/26002/</loc>
     <lastmod>2026-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/classes/25001/</loc>
+    <loc>https://nanumlearn.enochyu.com/classes/25001/</loc>
     <lastmod>2025-09-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/classes/25002/</loc>
+    <loc>https://nanumlearn.enochyu.com/classes/25002/</loc>
     <lastmod>2025-07-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/books/</loc>
+    <loc>https://nanumlearn.enochyu.com/books/</loc>
     <lastmod>2026-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://nanumlearn.enochyu.com/</loc>
     <lastmod>2026-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/news/</loc>
+    <loc>https://nanumlearn.enochyu.com/news/</loc>
     <lastmod>2026-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/news/26005/</loc>
+    <loc>https://nanumlearn.enochyu.com/news/26005/</loc>
     <lastmod>2026-08-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/classes/</loc>
+    <loc>https://nanumlearn.enochyu.com/classes/</loc>
     <lastmod>2026-08-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://nanumlearn.enochyu.com/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://nanumlearn.enochyu.com/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/handouts/</loc>
+    <loc>https://nanumlearn.enochyu.com/handouts/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://nanumlearn.enochyu.com/tags/</loc>
   </url>
 </urlset>

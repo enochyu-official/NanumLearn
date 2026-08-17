@@ -34,7 +34,6 @@ Last Updated: August 1, 2026
 * Sharing this platform
 * Creating more resources outside competition math and higher level math
 * Planning upcoming classes
-* Web design
 
 
 

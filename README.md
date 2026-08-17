@@ -17,5 +17,12 @@ please visit [LICENSE]().
 
 Please visit [CONTRIBUTING.md]() for more information.
 
+## License
+
+All contents are licensed under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+unless otherwise stated. The logo for Nanum Learn is copyrighted and contents like
+LibreNotebook and YouTube videos are released under different licenses. For more
+details on individual license, please visit each project.
+
 
 

@@ -292,6 +292,12 @@
     width: 90vw;
   }
 
+  #index-profile-join-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.5rem;
+    width: 100%;
+  }
 
   /*** Preview ***/
   .index-preview-container {
@@ -344,6 +350,7 @@
 
 @media (max-width: 512px) {
   #index-profile {
+    height: 120vh;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }

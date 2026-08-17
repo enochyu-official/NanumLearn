@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>My New Hugo Project</title>
-		<link>http://localhost:1313/</link>
-		<description>Recent content on My New Hugo Project</description>
+		<title>Nanum Learn</title>
+		<link>https://nanumlearn.enochyu.com/</link>
+		<description>Recent content on Nanum Learn</description>
 		<generator>Hugo</generator>
 		<language>en-us</language>
 		
@@ -12,47 +12,47 @@
 		
 			<lastBuildDate>Sun, 16 Aug 2026 00:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://nanumlearn.enochyu.com/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Enoch&#39;s Notebook: An Introduction to Linear Algebra</title>
-				<link>http://localhost:1313/books/26001/</link>
+				<link>https://nanumlearn.enochyu.com/books/26001/</link>
 				<pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/books/26001/</guid>
+				<guid>https://nanumlearn.enochyu.com/books/26001/</guid>
 				<description>&lt;p&gt;Linear algebra is a foundational branch of mathematics that&#xA;primarily investigates in linear equations, vectors, and their&#xA;relations. The application of linear algebra is so immense that&#xA;numerous fields require foundational understanding of linear&#xA;algebra. For instance, it would not be possible to gain&#xA;profound understandings in machine learning and data science&#xA;without the basics of linear algebra. This collection of notes&#xA;discuss the essence of linear algebra in perspective of teaching.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>Problem of the Day: 100 Problems for 100 Days</title>
-				<link>http://localhost:1313/classes/26004/</link>
+				<link>https://nanumlearn.enochyu.com/classes/26004/</link>
 				<pubDate>Sun, 09 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/classes/26004/</guid>
+				<guid>https://nanumlearn.enochyu.com/classes/26004/</guid>
 				<description>&lt;p&gt;As the name suggests, &amp;ldquo;Problem of the Day: 100 Problem for 100 Days&amp;rdquo;&#xA;solves 100 olympiad problems from diverse sources. The problems&#xA;are mixed with hard and easier problems with sources varying from&#xA;famous olympiads to original problems. The links to the handwritten&#xA;PDF files and video solutions for each problem can be found in&#xA;the overview PDF below.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>LibreNotebook</title>
-				<link>http://localhost:1313/books/26002/</link>
+				<link>https://nanumlearn.enochyu.com/books/26002/</link>
 				<pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/books/26002/</guid>
+				<guid>https://nanumlearn.enochyu.com/books/26002/</guid>
 				<description>&lt;p&gt;LibreNotebook is a giant and free notebook that anyone can read&#xA;and modify. The purpose is to inspire and accelerate open education&#xA;as a way of returning the blessings that we received from public&#xA;educational resources.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>2025 Introduction to AMC 8</title>
-				<link>http://localhost:1313/classes/25001/</link>
+				<link>https://nanumlearn.enochyu.com/classes/25001/</link>
 				<pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/classes/25001/</guid>
+				<guid>https://nanumlearn.enochyu.com/classes/25001/</guid>
 				<description>&lt;p&gt;The four live classes introduces competition style math to elementary&#xA;students with problems and concepts from AMC 8. Handouts and&#xA;recordings can be found below.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>2025 Introduction to AMC 10/12</title>
-				<link>http://localhost:1313/classes/25002/</link>
+				<link>https://nanumlearn.enochyu.com/classes/25002/</link>
 				<pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/classes/25002/</guid>
+				<guid>https://nanumlearn.enochyu.com/classes/25002/</guid>
 				<description>&lt;p&gt;I have lead three classes as a member of a former math group Happy&#xA;Math Virus for middle and high school students interested in starting&#xA;competition math. The recordings of problem sessions and its slides&#xA;are available below. Preview homeworks given to students are also&#xA;available below.&lt;/p&gt;</description>
 			</item>
 			<item>
 				<title>We are here!</title>
-				<link>http://localhost:1313/news/26005/</link>
+				<link>https://nanumlearn.enochyu.com/news/26005/</link>
 				<pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
-				<guid>http://localhost:1313/news/26005/</guid>
+				<guid>https://nanumlearn.enochyu.com/news/26005/</guid>
 				<description>&lt;p&gt;Hi there! As the initial post, I hope to provide a glimpse on what&#xA;we have been doing so far and few improvements that will be made as&#xA;we progress.&lt;/p&gt;&#xA;&lt;p&gt;After the initialization and formalizing our purpose and goals,&#xA;I have been making and designing this website. There are improvements&#xA;to be made in the website, but we hope to get them as we progress.&#xA;With the empty website, I have been adding the resources that I have&#xA;created and that I am working on right now as the initial start.&#xA;We also have been sharing our ideas and the purpose of Nanum Learn&#xA;with others to receive feedback and improve. These are the works that&#xA;have been done so far before the initial release.&lt;/p&gt;</description>
 			</item>
 	</channel>
