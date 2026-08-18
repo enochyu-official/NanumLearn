@@ -152,8 +152,15 @@
       </div>
 
       <div class="about-join-cards">
-        <h3>Sign Up</h3>
-        <p>Sign up for any newsletter and updates on live classes!</p>
+        {{ with .Site.Params.social.discord }}
+        <h3><a href="{{ . }}" target="_blank" rel="noopener"
+               aria-label="Discord"><i class="fab fa-discord"></i>
+               Discord</a></h3>
+        <p>Join our server to discuss, share resources, and stay
+        updated!</p>
+        <a href="{{ . }}" target="_blank" rel="noopener"
+           aria-label="Discord" class="btn1">Join</a>
+        {{ end }}
       </div>
       
       <div class="about-join-cards">

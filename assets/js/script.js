@@ -68,3 +68,22 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
+
+
+// Popup
+window.addEventListener("DOMContentLoaded", function () {
+  const popup = document.getElementById("popup");
+
+  if (sessionStorage.getItem("popupClosed") !== "true") {
+    popup.classList.add("show");
+  }
+});
+
+function closePopup() {
+  const popup = document.getElementById("popup");
+  popup.classList.remove("show");
+  sessionStorage.setItem("popupClosed", "true");
+}
+
+
+

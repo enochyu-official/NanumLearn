@@ -19,6 +19,30 @@
   text-decoration: none;
 }
 
+#popup {
+  display: none;
+  align-items: center;
+  text-align: left !important;
+  justify-content: space-between;
+  gap: 3rem;
+  background: rgba(28, 28, 30, 0.95);
+  color: whitesmoke !important;
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 1.7rem;
+}
+
+#popup.show {
+  display: flex;
+}
+
+#popup-button {
+  background: transparent;
+  color: whitesmoke;
+  border: none;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
 
 /* 404 */
 .error-page {

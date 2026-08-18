@@ -9,7 +9,7 @@ author = "Enoch Yu"
 favicon = "/img/favicon/favicon.ico"
   [params.social]
     youtube = "https://www.youtube.com/@enochyu_official"
-    discord = "https://github.com/enochyu-official"
+    discord = "https://discord.gg/6ABSqUf63"
     github = "https://github.com/enochyu-official"
 
 [security]
