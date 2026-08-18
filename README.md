@@ -10,8 +10,7 @@ appropriate credits are given. For more information the use,
 please visit [LICENSE]().
 
 ## Mission Statement
-    To inspire global learners by returning knowledge and skills
-    we have received.
+    To inspire global learners by returning knowledge and skills we have received.
 
 ## Contributing
 

@@ -150,11 +150,6 @@
   border-top: 2px solid var(--accent-color1);
 }
 
-.giscus {
-  width: 70vw;
-  margin: 0 auto;
-}
-
 
 @media (max-width: 992px) {
   .news-container {

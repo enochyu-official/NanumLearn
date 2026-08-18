@@ -41,7 +41,6 @@
   margin: 0 auto;
   width: 70vw;
   margin-top: 3rem;
-  gap: 5rem;
 }
 
 .single-content-section {
@@ -168,6 +167,11 @@
 }
 
 
+.giscus {
+  width: 70vw;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
 
 @media (max-width: 1023px) {
   .post-container,
